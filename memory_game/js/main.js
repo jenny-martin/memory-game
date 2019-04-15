@@ -1,7 +1,10 @@
-var cardOne = "Queen of Hearts";
-var cardTwo = "Queen of Diamonds";
-var cardThree = "King of Hearts";
-var cardFour = "King of Diamonds";
 
-console.log("User flipped " + cardOne);
-console.log("User flipped " + cardThree);
+console.log("Up and running!");
+
+var cardOne = "queen";
+var cardTwo = "queen";
+var cardThree = "king";
+var cardFour = "king";
+
+console.log("user flipped" + " " + cardOne);
+console.log("user flipped" + " " + cardThree);
