@@ -1,0 +1,17 @@
+var checkForMatch = function() {
+cardsInPlay.push([cardId]);
+if (cardsInPlay.length === 2)
+checkForMatch();
+}
+
+if (cardsInPlay[0] === cardsInPlay[1]) {
+alert("You found a match!");
+} else {
+alert("Sorry, try again.");
+}
+
+
+flipCard(0);
+flipCard(2);
+checkForMatch();
+console.log("User flipped " + flipCard(cards[0]) + "and " + flipCard(cards[2]));
